@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description" content="">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <script defer src='script.js'></script>
+    <title>Título da Página</title>
+    <style>
+        :root {
+            --green: #099268;
+            --grey-600: #212529;
+            --grey-400: #495057;
+            --size-default: 20px;
+            --space-left: 32px;
+
+            font-family: 'Inter', sans-serif;
+        }
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        main {
+            width: 537px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            padding-top: 85px;
+        }
+
+        div {
+            position: relative;
+        }
+
+        div img {
+            width: 100%;
+            border-radius: 8px 8px 0px 0px;
+        }
+
+        div span {
+            padding: 8px 16px;
+            background-color: var(--green);
+            border-radius: 16px;
+            color: #FFF;
+            font-size: var(--size-default);
+            font-weight: 500;
+            position: absolute;
+            left: var(--space-left);
+            bottom: 18px;
+        }
+
+        main h1 {
+            padding-top: 51px;
+            font-weight: 600;
+            font-size: 40px;
+            color: var(--grey-600);
+            line-height: 48px;
+            padding-left: var(--space-left);
+        }
+
+        main p {
+            font-weight: 400;
+            color: var(--grey-400);
+            font-size: var(--size-default);
+            line-height: 32px;
+            padding-top: 37px;
+            padding-left: var(--space-left);
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div>
+            <img src="./img/img_S1-08.svg" alt="pessoa usando computador">
+            <span>Online</span>
+        </div>
+        <h1>Camila Silva</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, accusantium?</p>
+    </main>
+</body>
+
+</html>
